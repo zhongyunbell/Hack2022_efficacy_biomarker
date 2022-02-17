@@ -24,12 +24,11 @@ st.markdown(f'<p style="text-align:center; background-color:LightSkyBlue;color:B
 image2 = Image.open(r'figs/Hack_fig.png') #Main image 
 st.image(image2)
 
-
-
 #Add a header and expander in side bar
 #st.sidebar.markdown('My First Photo Converter App', unsafe_allow_html=True)
-with st.sidebar.expander("About the App"):
-     st.write("""
-        It is paramount to identify predictive biomarkers for therapeutic efficacy  \n  \nWe developed this app to identify predictive biomarkers and assesses their predictive utility from clinical trial data
-     """)
+st.write("""This app utilizes clinical trial data to identify predictive biomarkers of therapeutic efficacy and assesses their predictive utility""")
+# with st.sidebar.expander("About the App"):
+#      st.write("""
+#         It is paramount to identify predictive biomarkers for therapeutic efficacy  \n  \nWe developed this app to identify predictive biomarkers and assesses their predictive utility from clinical trial data
+    #  """)
         
